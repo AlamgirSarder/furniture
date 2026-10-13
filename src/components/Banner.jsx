@@ -1,5 +1,5 @@
 import Container from "./ui/Container";
-import BannerImage from "../assets/Banner.png";
+import BannerImage from "../assets/banner.png";
 import Flex from "./ui/Flex";
 
 const Banner = () => {
