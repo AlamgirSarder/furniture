@@ -9,5 +9,5 @@
 }
 
 .nav_item{
-    @apply font-gupter font-bold text-[17px] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bottom-0 after:left-0 after:bg-black after:hidden hover:after:block cursor-pointer transition duration-500
+    @apply font-gupter font-bold text-[17px] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bottom-0 after:left-0 after:bg-black after:hidden hover:after:block cursor-pointer transition duration-500 
 }

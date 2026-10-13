@@ -15,7 +15,7 @@ const Banner = () => {
 
           <button className="py-7.5 px-17.5 bg-primary font-gupter font-medium text-[27px] tracking-[2%] text-white mr-8 cursor-pointer">Reagister</button>
 
-          <button className="py-7.5 px-17.5 border border-primary font-gupter font-medium text-[27px] tracking-[2%] text-primary cursor-pointer">Watch Video’s</button>
+          <button className="py-7.5 px-17.5 border border-primary font-gupter font-medium text-[27px] tracking-[2%] text-primary cursor-pointer">Watch Video's</button>
 
           
         </div>
