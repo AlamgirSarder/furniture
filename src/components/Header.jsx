@@ -28,7 +28,7 @@ const Header = () => {
     },
   ];
   return (
-    <header>
+    <header className="m-5">
       <nav>
         <Container>
           <div className="flex items-center justify-between">
