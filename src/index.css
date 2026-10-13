@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Habibi&display=swap');
 
 @theme{
     --font-gupter: "Gupter", serif;
+    --font-habibi: "Habibi", serif;
+    --color-primary: #C4A586;
 }
 
 .nav_item{

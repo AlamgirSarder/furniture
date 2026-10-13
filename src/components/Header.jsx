@@ -1,8 +1,9 @@
-import Container from "./Container";
+import Container from "./ui/Container";
 import logo from "../assets/Logo.png";
 import Navitem from "./ui/Navitem";
 import { FaSearch, FaUser } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
+import Flex from "./ui/Flex";
 
 const Header = () => {
   const NavItems = [
@@ -42,13 +43,13 @@ const Header = () => {
               ))}
             </ul>
 
-            <div className="flex gap-10">
+            <Flex className="gap-10">
               <FaSearch />
               <div className=" relative after:content:[] after:absolute after:-top-2 after:-right-2 after:bg-red-500 after:w-2 after:h-2 after:rounded-full">
                 <MdDelete />
               </div>
               <FaUser />
-            </div>
+            </Flex>
           </div>
         </Container>
       </nav>
