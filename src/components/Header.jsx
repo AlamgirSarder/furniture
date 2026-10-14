@@ -20,7 +20,7 @@ const Header = () => {
       href: "#",
     },
     {
-      name: "FAQ’S",
+      name: "FAQ'S",
       href: "#",
     },
     {
@@ -35,8 +35,8 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <img src={logo} alt="logo" />
             <ul className="flex gap-10">
-              {NavItems.map((item) => (
-                <Navitem
+              {NavItems.map((item,i) => (
+                <Navitem key={i}
                   className="nav_item"
                   item={item}
                 />
