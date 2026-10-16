@@ -1,8 +1,13 @@
-import React from 'react'
+import Container from "./ui/Container"
+
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <section>
+        <Container>
+            <h2>Product part</h2>
+        </Container>
+    </section>
   )
 }
 
